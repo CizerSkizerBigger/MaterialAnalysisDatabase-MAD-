@@ -17,7 +17,7 @@ with st.sidebar.expander('About this app'):
 
 #======== Content ========#
 
-st.header('Parameter Selection', devider=True)
+st.header('Parameter Selection', divider=True)
 st.write('In this section, select the relevent parameters to be determined for x and y axis')
 X_coordinate_selection = ('Price', 'Performance', 'Ratio')
 Y_coordinate_selection = None
