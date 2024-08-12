@@ -13,7 +13,7 @@ st.sidebar.header('Control Panel')
 st.sidebar.write("")
 
 with st.sidebar.expander('About this app'): 
-     st.write("This is an open source analysis web app tool to further analyze material selection data, with the open-source available here")
+     st.write("This is an open source analysis web app tool to further analyze material selection data, with the open-source code available [here](https://github.com/CizerSkizerBigger/MaterialAnalysisDatabase-MAD-)")
 
 #======== Content ========#
 
