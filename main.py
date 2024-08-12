@@ -8,6 +8,9 @@ st.title('Material Analysis')
 
 #======== Sidebar ========#
 
+st.sidebar.header('Control Panel')
+st.sidebar.write("")
+
 
 st.sidebar.header('About')
 st.sidebar.write("Web app for custom material selection & analysis. Define your own axes & criteria. Explore, analyze, discover.")
