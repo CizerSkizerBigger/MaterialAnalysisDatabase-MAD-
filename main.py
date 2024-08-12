@@ -57,13 +57,12 @@ with col3:
           index=None,
           placeholder='Z coordinate (Optional)'
      )
-st.write(type(Z_coordinate))
 
 Notification_txt = ''
 
 if Y_coordinate != None:
      Notification_txt = '2D Graphs'
-elif Z_coordinate != None:
+if Z_coordinate != None:
      Notification_txt = '3D Graphs'
 else: 
      Notification_txt = 'No Graphs'
