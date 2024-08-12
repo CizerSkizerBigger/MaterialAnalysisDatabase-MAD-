@@ -53,7 +53,7 @@ if Y_coordinate != None:
 with col3:
      Z_coordinate = st.selectbox(
           'Select the Z coordinate',
-          Z_coordinate_selection.
+          Z_coordinate_selection,
           index=None,
           placeholder='Z coordinate'
      )
