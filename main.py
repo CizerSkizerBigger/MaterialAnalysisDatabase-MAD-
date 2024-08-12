@@ -55,7 +55,7 @@ with col3:
           'Select the Z coordinate',
           Z_coordinate_selection,
           index=None,
-          placeholder='Z coordinate (If any)'
+          placeholder='Z coordinate (Optional)'
      )
 
 
