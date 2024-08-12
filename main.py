@@ -1,8 +1,21 @@
+#======== Imports ========#
+
 import streamlit as st # type: ignore
+
+#======== Titles ========#
 
 st.title('Material Analysis')
 
-#=========
+#======== Sidebar ========#
+
+
+st.sidebar.header('Input')
+st.sidebar.image('/home/cizer/Downloads/Images/Ball.jpeg')
+user_name = st.sidebar.text_input('What is your name?')
+user_emoji = st.sidebar.selectbox('Choose an emoji', ['', '😄', '😆', '😊', '😍', '😴', '😕', '😱'])
+user_food = st.sidebar.selectbox('What is your favorite food?', ['', 'Tom Yum Kung', 'Burrito', 'Lasagna', 'Hamburger', 'Pizza'])
+
+#======== Content ========#
 
 st.header('st.selectbox')
 
