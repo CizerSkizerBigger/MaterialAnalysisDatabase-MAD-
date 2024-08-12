@@ -59,7 +59,7 @@ with col3:
      )
 
 Notification_txt = ''
-if X_coordinate && Y_Coordinate != None:
+if X_coordinate and Y_Coordinate != None:
      Notification_txt = "The material comparison graph will showcase a 2D graph with ", X_coordinate, " and ", Y_coordinate
 else:
      pass
