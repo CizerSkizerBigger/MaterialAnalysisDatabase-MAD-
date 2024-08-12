@@ -62,7 +62,7 @@ Notification_txt = ''
 
 if X_coordinate and Y_coordinate != None:
      if Z_coordinate == None:
-          Notification_txt = '2D grahp'
+          Notification_txt = '2D graph'
      elif Z_coordinate != None : 
           Notification_txt = '3D graph'
 else:
