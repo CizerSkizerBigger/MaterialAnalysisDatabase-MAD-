@@ -13,7 +13,7 @@ st.sidebar.header('Control Panel')
 st.sidebar.write("")
 
 with st.sidebar.expander('About this app'): 
-     st.write("This is an open source analysis web app tool to further analyze material selection data.\n This webapp is created by Cizer and the source code can be seen on the following link")
+     st.write("This is an open source analysis web app tool to further analyze material selection data./n This webapp is created by Cizer and the source code can be seen on the following link")
 
 #======== Content ========#
 
