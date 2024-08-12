@@ -1,6 +1,8 @@
 #======== Imports ========#
 
-import streamlit as st # type: ignore
+import streamlit as st 
+import numpy as np 
+import pandas as pd 
 
 #======== Titles ========#
 
@@ -80,3 +82,13 @@ with col5:
      ResetButton = st.button('Reset')
      if ResetButton:
           st.warning(' Graph has been reset ')
+
+"""data = [
+     [1, 1, 1],
+     [2, 2, 2],
+     [3, 3, 3]
+]
+array = np.array(data)
+
+if GenerateButton:
+     pass""" # The big boi, need to learn PD and NP before
