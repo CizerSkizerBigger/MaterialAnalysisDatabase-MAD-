@@ -5,6 +5,7 @@ import streamlit as st # type: ignore
 #======== Titles ========#
 
 st.title('Material Analysis')
+st.write('Web app for custom material selection & analysis. Define your own axes & criteria. Explore, analyze, discover.')
 
 #======== Sidebar ========#
 
