@@ -55,6 +55,6 @@ with col3:
           'Select the Z coordinate',
           Z_coordinate_selection,
           index=None,
-          placeholder='Z coordinate'
+          placeholder='Z coordinate (If any)'
      )
 st.write('The material comparison would be: ', X_coordinate, 'vs', Y_coordinate)
