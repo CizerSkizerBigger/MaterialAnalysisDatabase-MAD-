@@ -74,7 +74,7 @@ col4, col5 = st.columns(2)
 with col4:
      GenerateButton = st.button('Generate')
      if GenerateButton:
-          st.success('Test')
+          st.success('*** Graph have been generated ***')
 
 with col5:
      st.button('Reset')
