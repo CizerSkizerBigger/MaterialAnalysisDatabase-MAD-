@@ -24,6 +24,7 @@ col1, col2, col3 = st.columns(3)
 
 X_coordinate_selection = ('Price', 'Performance', 'Ratio')
 Y_coordinate_selection = None
+Z_coordinate_selection = None
 
 with col1:
      X_coordinate = st.selectbox(
@@ -45,4 +46,15 @@ with col2:
     placeholder='Y coordinate'
     ) 
 
+if Y_coordinate != None:
+     Remove1 = Y_coordinate
+     Z_coordinate_selection = tuple(item for item in X_coordinate_selection if item != Remove1)
+
+with col3:
+     Z_coordinate = st.selectbox(
+          'Select the Z coordinate',
+          Z_coordinate_selection.
+          index=None,
+          placeholder='Z coordinate'
+     )
 st.write('The material comparison would be: ', X_coordinate, 'vs', Y_coordinate)
