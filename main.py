@@ -11,9 +11,9 @@ st.title('Material Analysis')
 st.sidebar.header('Control Panel')
 st.sidebar.write("")
 
+with st.expander('About this app')
+     st.sidebar.write("Web app for custom material selection & analysis. Define your own axes & criteria. Explore, analyze, discover.")
 
-st.sidebar.header('About')
-st.sidebar.write("Web app for custom material selection & analysis. Define your own axes & criteria. Explore, analyze, discover.")
 #======== Content ========#
 
 st.header('st.selectbox')
