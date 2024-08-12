@@ -62,8 +62,8 @@ TypeGraph = ''
 
 if X_coordinate and Y_coordinate != None:
      if Z_coordinate == None:
-          st.write("A 2D graph will be generated with the relevant axis being " + X_coordinate + ' and ' + Y_coordinate)
+          st.write("A **2D graph** will be generated with the relevant axis being " + X_coordinate + ' and ' + Y_coordinate)
      elif Z_coordinate != None : 
-          st.write("A 3D graph will be generated with the relevant axis being " + X_coordinate + ', ' + Y_coordinate + ' and ' + Z_coordinate)
+          st.write("A **3D graph** will be generated with the relevant axis being " + X_coordinate + ', ' + Y_coordinate + ' and ' + Z_coordinate)
 else:
      st.write("No Graphs will be generated, please select the relevant axis of comparison")
