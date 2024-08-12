@@ -58,13 +58,13 @@ with col3:
           placeholder='Z coordinate (Optional)'
      )
 
-Notification_txt = ''
+TypeGraph = ''
 
 if X_coordinate and Y_coordinate != None:
      if Z_coordinate == None:
-          Notification_txt = '2D graph'
+          TypeGraph = '2'
      elif Z_coordinate != None : 
-          Notification_txt = '3D graph'
+          TypeGraph = '3'
 else:
-     Notification_txt = 'No Graphs'
-st.write(Notification_txt)
+     TypeGraph = 'No Graphs'
+st.write("Generated graph will be a " + TypeGraph + "D graph With the relevant axis being " + X_coordinate + " and " + Y_coordinate )
