@@ -19,10 +19,14 @@ with st.sidebar.expander('About this app'):
 
 st.header('Parameter Selection', divider=True)
 st.write('In this section, select the relevent parameters to be determined for x and y axis')
+
+col1, col2, col3 = st.columns(3)
+
 X_coordinate_selection = ('Price', 'Performance', 'Ratio')
 Y_coordinate_selection = None
 
-X_coordinate = st.selectbox(
+with col1:
+     X_coordinate = st.selectbox(
      'Select the X coordinate',
      X_coordinate_selection,
      index=None,
@@ -33,13 +37,12 @@ if X_coordinate != None:
     Remove = X_coordinate
     Y_coordinate_selection = tuple(item for item in X_coordinate_selection if item != Remove)
 
-Y_coordinate = st.selectbox(
+with col2:
+    Y_coordinate = st.selectbox(
     'select the Y coordinate',
     Y_coordinate_selection,
     index=None,
     placeholder='Select the Y coordinate'
-)
-
-
+    ) 
 
 st.write('The material comparison would be: ', X_coordinate, 'vs', Y_coordinate)
