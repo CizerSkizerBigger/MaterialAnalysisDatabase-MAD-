@@ -67,4 +67,4 @@ if X_coordinate and Y_coordinate != None:
           TypeGraph = '3'
 else:
      TypeGraph = 'No Graphs'
-st.write("Generated graph will be a " + TypeGraph + "D graph With the relevant axis being " + X_coordinate + " and " + Y_coordinate )
+st.write("Generated graph will be a ")
