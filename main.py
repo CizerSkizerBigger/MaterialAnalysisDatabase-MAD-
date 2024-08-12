@@ -57,7 +57,7 @@ with col3:
           index=None,
           placeholder='Z coordinate (Optional)'
      )
-type(Z_coordinate)
+st.write(type(Z_coordinate))
 
 Notification_txt = ''
 
