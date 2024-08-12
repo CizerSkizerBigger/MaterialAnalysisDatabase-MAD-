@@ -69,7 +69,7 @@ else:
      st.write("No Graphs will be generated, please select the relevant axis of comparison")
 
 
-col4, col5 = st.column(2)
+col4, col5 = st.columns(2)
 
 with col4:
      st.button('Generate')
