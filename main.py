@@ -30,7 +30,7 @@ with col1:
      'Select the X coordinate',
      X_coordinate_selection,
      index=None,
-     placeholder='Select the X coordinate'
+     placeholder='X coordinate'
      )
 
 if X_coordinate != None:
@@ -42,7 +42,7 @@ with col2:
     'select the Y coordinate',
     Y_coordinate_selection,
     index=None,
-    placeholder='Select the Y coordinate'
+    placeholder='Y coordinate'
     ) 
 
 st.write('The material comparison would be: ', X_coordinate, 'vs', Y_coordinate)
