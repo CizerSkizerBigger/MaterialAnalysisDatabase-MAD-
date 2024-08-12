@@ -60,7 +60,7 @@ with col3:
 
 Notification_txt = ''
 
-if X_coordinate and Y_coodinate != None:
+if X_coordinate and Y_coordinate != None:
      if Z_coordinate == None:
           Notification_txt = '2D grahp'
      elif Z_coordinate != None : 
