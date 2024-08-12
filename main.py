@@ -57,4 +57,11 @@ with col3:
           index=None,
           placeholder='Z coordinate (If any)'
      )
-st.write('The material comparison would be: ', X_coordinate, 'vs', Y_coordinate)
+
+Notification_txt = ''
+if X_coordinate && Y_Coordinate != None:
+     Notification_txt = "The material comparison graph will showcase a 2D graph with ", X_coordinate, " and ", Y_coordinate
+else:
+     pass
+
+st.write(Notification_txt)
