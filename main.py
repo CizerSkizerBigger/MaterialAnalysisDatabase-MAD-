@@ -67,3 +67,12 @@ if X_coordinate and Y_coordinate != None:
           st.write("A ***3D graph*** will be generated with the relevant axis being " + X_coordinate + ', ' + Y_coordinate + ' and ' + Z_coordinate)
 else:
      st.write("No Graphs will be generated, please select the relevant axis of comparison")
+
+
+col4, col5 = st.column(2)
+
+with col4:
+     st.button('Generate')
+
+with col5:
+     st.button('Reset')
