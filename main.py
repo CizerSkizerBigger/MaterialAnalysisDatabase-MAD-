@@ -61,9 +61,9 @@ with col3:
 
 Notification_txt = ''
 
-if X_coordinate and Y_coordinate != None:
+if Y_coordinate != None:
      Notification_txt = '2D Graphs'
-elif X_coordinate and Y_coordinate and Z_coordinate != None:
+elif Z_coordinate != None:
      Notification_txt = '3D Graphs'
 else: 
      Notification_txt = 'No Graphs'
