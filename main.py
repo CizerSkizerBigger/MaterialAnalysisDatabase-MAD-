@@ -59,9 +59,5 @@ with col3:
      )
 
 Notification_txt = ''
-if X_coordinate_selection and Y_Coordinate_selection != None:
-     Notification_txt = "The material comparison graph will showcase a 2D graph with ", X_coordinate, " and ", Y_coordinate
-else:
-     pass
 
 st.write(Notification_txt)
