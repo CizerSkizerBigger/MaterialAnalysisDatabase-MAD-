@@ -4,7 +4,7 @@ import streamlit as st # type: ignore
 
 #======== Titles ========#
 
-st.title('Material Analysis')
+st.title('Material Analysis Database')
 st.write('Web app for custom material selection & analysis. Define your own axes & criteria. Explore, analyze, discover.')
 
 #======== Sidebar ========#
@@ -17,7 +17,7 @@ with st.sidebar.expander('About this app'):
 
 #======== Content ========#
 
-st.header('Material Selection')
+st.header('##Parameter')
 st.write('In this section, select the relevent parameters to be determined for x and y axis')
 X_coordinate_selection = ('Price', 'Performance', 'Ratio')
 Y_coordinate_selection = None
