@@ -72,7 +72,9 @@ else:
 col4, col5 = st.columns(2)
 
 with col4:
-     st.button('Generate')
+     GenerateButton = st.button('Generate')
+     if GenerateButton:
+          st.success('Test')
 
 with col5:
      st.button('Reset')
