@@ -48,7 +48,7 @@ with col2:
 
 if Y_coordinate != None:
      Remove1 = Y_coordinate
-     Z_coordinate_selection = tuple(item for item in X_coordinate_selection if item != Remove1)
+     Z_coordinate_selection = tuple(item for item in Y_coordinate_selection if item != Remove1)
 
 with col3:
      Z_coordinate = st.selectbox(
