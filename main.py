@@ -84,6 +84,8 @@ with col5:
           st.warning(' Graph has been reset ')
           X_coordinate = None
 
+X_coordinate
+
 """data = [
      [1, 1, 1],
      [2, 2, 2],
