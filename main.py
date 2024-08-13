@@ -82,7 +82,7 @@ with col5:
      ResetButton = st.button('Reset')
      if ResetButton:
           st.warning(' Graph has been reset ')
-          X_coordinate, Y_coordinate, Z_coordinate = None, None, None
+          X_coordinate = None
 
 """data = [
      [1, 1, 1],
