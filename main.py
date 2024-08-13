@@ -27,13 +27,15 @@ col1, col2, col3 = st.columns(3)
 X_coordinate_selection = ('Price', 'Performance', 'Ratio')
 Y_coordinate_selection = None
 Z_coordinate_selection = None
+Session_state = False
 
 with col1:
      X_coordinate = st.selectbox(
      'Select the X coordinate',
      X_coordinate_selection,
      index=None,
-     placeholder='X coordinate'
+     placeholder='X coordinate',
+     disabled = Session_state
      )
 
 if X_coordinate != None:
@@ -82,7 +84,7 @@ with col5:
      ResetButton = st.button('Reset')
      if ResetButton:
           st.warning(' Graph has been reset ')
-          X_coordinate(disabled=True)
+          Session_state = True
 
 X_coordinate
 
