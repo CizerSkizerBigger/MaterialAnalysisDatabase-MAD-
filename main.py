@@ -82,6 +82,7 @@ def reset():
     st.session_state.selection = 'Select the X coordinate'
 
 with col5:
+     ResetButton = st.button('Reset')
      if ResetButton:
           st.warning(' Graph has been reset ')
 
