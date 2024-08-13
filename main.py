@@ -82,7 +82,7 @@ with col5:
      ResetButton = st.button('Reset')
      if ResetButton:
           st.warning(' Graph has been reset ')
-          X_coordinate = None
+          X_coordinate(disabled=True)
 
 X_coordinate
 
