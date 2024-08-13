@@ -34,6 +34,7 @@ with col1:
      X_coordinate_selection,
      index=None,
      placeholder='X coordinate',
+     key='selection'
      )
 
 if X_coordinate != None:
@@ -77,6 +78,9 @@ with col4:
      GenerateButton = st.button('Generate')
      if GenerateButton:
           st.success(' Graph have been generated ')
+
+def reset():
+    st.session_state.selection = 'Select the X coordinate'
 
 with col5:
      ResetButton = st.button('Reset', on_click=reset)
